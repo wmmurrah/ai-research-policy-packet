@@ -14,16 +14,12 @@ title: "Checklists & Allowed Uses"
 - [ ] Bias/robustness tests completed.
 - [ ] Repository prepared for sharing (licenses, README, DOIs).
 
-
 ## Green / Yellow / Red
 **Green (allowed with logging):** brainstorming; literature scaffolding; copy-editing nonconfidential text; code linting on toy/synthetic data; alt-text; captions.
 
-
 **Yellow (approval & controls):** summarizing public PDFs; de-identified data labeling; translation of non-sensitive materials; enterprise transcription.
 
-
 **Red (prohibited):** confidential manuscript/grant text; identifiable human data to public tools; licensed instruments without permission; automated peer review; AI-fabricated data presented as real; undisclosed AI-generated images.
-
 
 ## Reviewer/editor checklist
 - [ ] I did not use public AI on confidential content.

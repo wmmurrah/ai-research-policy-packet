@@ -6,7 +6,7 @@ project:
 book:
   title: "AI in Research: Policy, SOPs, and Templates"
   subtitle: "Guidance for Responsible, Reproducible AI Across the Research Lifecycle"
-  author: "[INSTITUTION] — [DEPARTMENT]"
+  author: "Auburn University — EFLT"
   date: last-modified
   chapters:
     - index.qmd
