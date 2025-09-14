@@ -1,0 +1,53 @@
+---
+title: "Templates"
+---
+
+
+### Manuscript AI-use disclosure (short)
+> We used *[Tool, version]* for *[copy-editing/summarization/code suggestions]* in *[sections]*. Outputs were reviewed and edited by the authors; all accuracy and originality remain the authors’ responsibility. No confidential or identifiable data were provided to AI systems.
+
+
+### Grant/IRB language (AI processing of data)
+> Study data may be processed with machine-learning tools for transcription/annotation/analysis on secure, [INSTITUTION]-approved systems. No public AI services will receive identifiable data. Data will be de-identified prior to any automated processing.
+
+
+### Peer-review attestation (reviewers/editors)
+> I did not use public AI systems to read, summarize, or draft any part of this review, nor did I disclose manuscript contents to any third-party tool.
+
+
+---
+
+
+## Datasheet for Datasets — template
+
+Dataset name
+
+Version: v0.1
+Owners: [Name, email]
+Provenance: [Source(s), collection dates]
+Licenses/rights: [Link/terms]
+Population/coverage: [Who/what/where/when] Consent & lawful basis: [IRB status, consent language, TDM basis] Sensitive attributes: [List or N/A] Known skews/biases: [Describe] Preprocessing & de-ID: [Methods, date, validator] Quality checks: [Missingness, noise, audits] Permitted uses: [Allowed] Prohibited uses: [Forbidden] Retention/deletion: [Schedule]
+
+
+
+## Model Card — template
+Model name
+
+Version: v0.1
+Owner: [Name, email]
+Intended use: [Scope, users, decisions supported]
+Out-of-scope: [Misuse, non-goals] Training data: [Sources, timeframe, datasheet refs] Evaluation data: [Datasets, metrics]
+Performance: [Overall + subgroup] Robustness/shift tests: [Methods, results] Safety mitigations: [Filters, constraints] Limitations: [Caveats] Update policy: [Schedule, triggers] Contact: [CONTACT_EMAIL]
+
+
+
+## AI Use Log — CSV header
+```csv
+project_id,date,stage,tool,tool_version,prompt_file,input_type,contains_confidential(boolean),output_kept(desc),human_verification(desc),reviewed_by
+Risk Register — CSV header
+project_id,risk_category,description,likelihood,impact,mitigation,owner,status,next_review
+Prompt archive guidance
+
+Save prompts in prompts/YYYY-MM-DD_context.txt.
+
+For long sessions, export transcripts or maintain a summarized prompt file per analysis step.

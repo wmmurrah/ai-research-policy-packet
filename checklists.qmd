@@ -1,0 +1,39 @@
+---
+title: "Checklists & Allowed Uses"
+---
+
+
+## One-page PI checklist (printable)
+- [ ] AI Use Case registered; roles named.
+- [ ] Tools are enterprise-approved.
+- [ ] IRB reflects AI processing; de-identification complete.
+- [ ] Datasheet(s) and Model Card(s) started.
+- [ ] Risk Register created; mitigations assigned.
+- [ ] Prompts & outputs logged; seeds/environments locked.
+- [ ] Disclosure text prepared.
+- [ ] Bias/robustness tests completed.
+- [ ] Repository prepared for sharing (licenses, README, DOIs).
+
+
+## Green / Yellow / Red
+**Green (allowed with logging):** brainstorming; literature scaffolding; copy-editing nonconfidential text; code linting on toy/synthetic data; alt-text; captions.
+
+
+**Yellow (approval & controls):** summarizing public PDFs; de-identified data labeling; translation of non-sensitive materials; enterprise transcription.
+
+
+**Red (prohibited):** confidential manuscript/grant text; identifiable human data to public tools; licensed instruments without permission; automated peer review; AI-fabricated data presented as real; undisclosed AI-generated images.
+
+
+## Reviewer/editor checklist
+- [ ] I did not use public AI on confidential content.
+- [ ] Any permitted assistance occurred on private, logged systems.
+- [ ] I will not retain manuscript text in external tools.
+
+
+## QA checklist (analysis & modeling)
+- [ ] Evaluation includes subgroup performance.
+- [ ] Robustness/shift tests completed.
+- [ ] Failure modes documented; limitations section updated.
+- [ ] Model Card complete; intended use/out-of-scope defined.
+

@@ -1,0 +1,62 @@
+---
+title: "Standard Operating Procedures (SOPs)"
+---
+
+
+This SOP maps the research lifecycle to concrete steps, artifacts, and gates.
+
+
+### Gate 0 — Project registration (before any AI use)
+- File an **AI Use Case** entry: purpose, data types, tools, access, risks, roles.
+- Create initial **Risk Register** and **Reproducibility Bundle** skeleton (repo with `env.lock`, `prompts/`, `logs/`).
+
+
+### Stage 1 — Ideas & literature
+- Use AI to brainstorm/search; verify against sources.
+- Artifact: **AI Use Log** entries; **Source List**.
+
+
+### Stage 2 — Grant/protocol drafting
+- Only nonconfidential text may be processed; use enterprise tools.
+- Artifact: **Disclosure note** (if AI used for editing), **Access attestations**.
+
+
+### Stage 3 — IRB/ethics & data rights
+- Update protocol to reflect AI processing; include consent language.
+- Artifact: **IRB-approved language**, **License/TDM memo**.
+
+
+### Stage 4 — Data collection & curation
+- De-identify data; produce **Datasheet for Datasets**.
+- Artifact: Datasheet v1; **Data License** file; **PII risk assessment**.
+
+
+### Stage 5 — Analysis & modeling
+- Use AI for code suggestions/tests; lock seeds and environments.
+- Artifact: **Model Card**; **Evaluation report** (accuracy, subgroup fairness, robustness); **Change log**.
+
+
+### Stage 6 — Results verification & reporting
+- Independent checks; bias & robustness analyses.
+- Artifact: **QA checklist**; **Signed verification** by QA Lead.
+
+
+### Stage 7 — Writing & authorship
+- Human-led drafting; disclose AI assistance and verification steps.
+- Artifact: **AI Use Statement** in manuscript; prompt archive for major uses.
+
+
+### Stage 8 — Peer review & editorial work
+- No public AI use on confidential content.
+- Artifact: **Reviewer attestation** (if applicable).
+
+
+### Stage 9 — Publication, sharing & archiving
+- Deposit code/data (as permitted) with licenses and metadata.
+- Artifact: **Repository DOI**, **README**, **Data/Model Cards**, **AI Use Log** export.
+
+
+### Stage 10 — Deployment & translation
+- Define intended use/out-of-scope; user disclosures; monitoring plan.
+- Artifact: **Deployment risk assessment**, **User docs**, **Incident log**.
+

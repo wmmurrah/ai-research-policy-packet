@@ -1,0 +1,34 @@
+project:
+  type: book
+  output-dir: _site
+
+
+book:
+  title: "AI in Research: Policy, SOPs, and Templates"
+  subtitle: "Guidance for Responsible, Reproducible AI Across the Research Lifecycle"
+  author: "[INSTITUTION] — [DEPARTMENT]"
+  date: last-modified
+  chapters:
+    - index.qmd
+    - policy.qmd
+    - sop.qmd
+    - checklists.qmd
+    - templates.qmd
+    - appendices.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-tools: true
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    number-sections: true
+
+editor: source
+
+
+

@@ -1,0 +1,74 @@
+---
+title: "Department Policy on AI in Research"
+---
+
+
+## 3. Principles
+1. **Legality & ethics:** Comply with laws, funder rules, publisher policies, and IRB approvals.
+2. **Human accountability:** Researchers retain responsibility for all outputs.
+3. **Transparency:** Material AI assistance is disclosed.
+4. **Privacy & security by design:** De-identify early; use approved systems.
+5. **Fairness & quality:** Measure and mitigate bias; validate claims.
+6. **Reproducibility:** Preserve artifacts to enable independent verification.
+
+
+## 4. Roles & responsibilities
+- **Principal Investigator (PI):** Approves AI use cases; signs risk register and disclosures.
+- **Data Steward:** Ensures compliant storage, access control, and de-identification.
+- **Model Owner:** Authors and maintains Model Cards; documents evaluation, updates, and limitations.
+- **Project QA Lead:** Maintains AI Use Logs, prompt archives, change logs, and reproducibility bundles.
+- **Department AI Lead (or designee):** Maintains this policy, reviews exceptions, and coordinates training.
+
+
+## 5. Permitted vs. prohibited uses
+### 5.1 Permitted (with logging)
+- Brainstorming, outlining, literature scaffolding on public content.
+- Copy-editing nonconfidential text; code linting on toy/synthetic data.
+- Summarizing public PDFs with proper citation checks.
+
+
+### 5.2 Restricted (require approvals & controls)
+- Data labeling/annotation of **de-identified** data.
+- Translation of non-sensitive materials.
+- Transcription using **enterprise** tools with approved storage.
+
+
+### 5.3 Prohibited
+- Uploading any **confidential** content to public AI tools.
+- Using AI to perform **peer review** of confidential materials.
+- Presenting **AI-fabricated data** as empirical observation.
+- Generating images or figures that could mislead without explicit labeling.
+
+
+## 6. Disclosure & documentation
+All material AI assistance must be disclosed in manuscripts/grants (see templates). Projects must maintain:
+- **AI Use Log**, **Risk Register**, **Datasheet(s)**, **Model Card(s)**, and a **Reproducibility Bundle** (code, lockfiles, seeds, data access notes, prompt files).
+
+
+## 7. Data governance & privacy
+- Apply de-identification at the earliest possible stage.
+- Store research data and AI outputs on approved systems.
+- Respect licenses and rights (publisher PDFs, test instruments); document TDM legal basis when applicable.
+
+
+## 8. Security & procurement
+- Prefer enterprise/private tools approved by [INSTITUTION].
+- Vendor vetting is required for any tool touching research data.
+
+
+## 9. Peer review & editorial ethics
+- No public AI tools may access confidential manuscripts or grants.
+- If a venue permits limited AI assistance, it must be private, logged, and disclosed to the venue.
+
+
+## 10. Training & compliance
+- Annual training on AI in research for all researchers and staff.
+- Audits may review logs, prompts, risk registers, and artifacts.
+
+
+## 11. Exceptions
+Exceptions require written approval from the Department AI Lead and the PI, with documented mitigations and rationale.
+
+
+## 12. Enforcement
+Violations may result in corrective actions under [INSTITUTION] policies and sponsor requirements.

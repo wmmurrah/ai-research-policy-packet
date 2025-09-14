@@ -1,0 +1,232 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI in Research: Policy, SOPs, and Templates",
+    "section": "",
+    "text": "Note\n\n\n\nPurpose. This packet provides a departmental policy, standard operating procedures (SOPs), stage-by-stage checklists, and ready-to-paste templates for disclosing and documenting AI use in research.\n\n\n\n0.0.1 Who this is for\nResearchers, PIs, data stewards, model owners, and editors/reviewers affiliated with [INSTITUTION] — [DEPARTMENT].\n\n\n0.0.2 Quick-start: Ten Rules\n\nDon’t upload confidential material (unpublished manuscripts, grants, identifiable data, licensed instruments) to public AI tools.\nHumans are responsible. AI is never an author; disclose substantive AI assistance.\nLog your AI use (tool+version, prompts, inputs by type, outputs kept, human checks).\nPrefer enterprise or local tools approved by [INSTITUTION].\nVerify claims and cite original sources, not the model.\nNo AI for peer review of confidential manuscripts or proposals.\nProtect participants: IRB approval for AI processing; de-identify first.\nDocument datasets and models (Datasheets & Model Cards).\nTrack risks (privacy, bias, IP, security, misuse) and mitigations.\nBe reproducible: save prompts, seeds, code, data versions, and environments.\n\n\n\n0.0.3 Roles & accountability\n\nPI: ultimate sign-off on AI use, risk register, and disclosures.\nData Steward: storage, access control, de-identification.\nModel Owner: model card, evaluations, updates.\nProject QA Lead: verifies logs, prompts, reproducibility bundle.\n\n\n\n0.0.4 How the packet is organized\n\npolicy.qmd – Department policy (scope, definitions, roles, permitted/prohibited uses, disclosure, procurement, training, enforcement).\nsop.qmd – Stage-by-stage procedures aligned to the research lifecycle.\nchecklists.qmd – One-page checklists and green/yellow/red lists.\ntemplates.qmd – Disclosure language, IRB snippets, Reviewer attestation, Datasheet & Model Card templates, CSV headers for logs.\nappendices.qmd – External references and mappings to national and international guidance.\n\n\n\n\n\n\n\nTip\n\n\n\nSmart defaults for [INSTITUTION]. Enforce a strict ban on public AI use for confidential content, require ICMJE-style disclosure of AI assistance, and adopt NIST AI RMF as the governance spine. Adapt state/funder specifics in Appendix A.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview & Quick Start</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html",
+    "href": "policy.html",
+    "title": "2  Department Policy on AI in Research",
+    "section": "",
+    "text": "2.1 3. Principles",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#principles",
+    "href": "policy.html#principles",
+    "title": "2  Department Policy on AI in Research",
+    "section": "",
+    "text": "Legality & ethics: Comply with laws, funder rules, publisher policies, and IRB approvals.\nHuman accountability: Researchers retain responsibility for all outputs.\nTransparency: Material AI assistance is disclosed.\nPrivacy & security by design: De-identify early; use approved systems.\nFairness & quality: Measure and mitigate bias; validate claims.\nReproducibility: Preserve artifacts to enable independent verification.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#roles-responsibilities",
+    "href": "policy.html#roles-responsibilities",
+    "title": "2  Department Policy on AI in Research",
+    "section": "2.2 4. Roles & responsibilities",
+    "text": "2.2 4. Roles & responsibilities\n\nPrincipal Investigator (PI): Approves AI use cases; signs risk register and disclosures.\nData Steward: Ensures compliant storage, access control, and de-identification.\nModel Owner: Authors and maintains Model Cards; documents evaluation, updates, and limitations.\nProject QA Lead: Maintains AI Use Logs, prompt archives, change logs, and reproducibility bundles.\nDepartment AI Lead (or designee): Maintains this policy, reviews exceptions, and coordinates training.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#permitted-vs.-prohibited-uses",
+    "href": "policy.html#permitted-vs.-prohibited-uses",
+    "title": "2  Department Policy on AI in Research",
+    "section": "2.3 5. Permitted vs. prohibited uses",
+    "text": "2.3 5. Permitted vs. prohibited uses\n\n2.3.1 5.1 Permitted (with logging)\n\nBrainstorming, outlining, literature scaffolding on public content.\nCopy-editing nonconfidential text; code linting on toy/synthetic data.\nSummarizing public PDFs with proper citation checks.\n\n\n\n2.3.2 5.2 Restricted (require approvals & controls)\n\nData labeling/annotation of de-identified data.\nTranslation of non-sensitive materials.\nTranscription using enterprise tools with approved storage.\n\n\n\n2.3.3 5.3 Prohibited\n\nUploading any confidential content to public AI tools.\nUsing AI to perform peer review of confidential materials.\nPresenting AI-fabricated data as empirical observation.\nGenerating images or figures that could mislead without explicit labeling.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#disclosure-documentation",
+    "href": "policy.html#disclosure-documentation",
+    "title": "2  Department Policy on AI in Research",
+    "section": "2.4 6. Disclosure & documentation",
+    "text": "2.4 6. Disclosure & documentation\nAll material AI assistance must be disclosed in manuscripts/grants (see templates). Projects must maintain: - AI Use Log, Risk Register, Datasheet(s), Model Card(s), and a Reproducibility Bundle (code, lockfiles, seeds, data access notes, prompt files).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#data-governance-privacy",
+    "href": "policy.html#data-governance-privacy",
+    "title": "2  Department Policy on AI in Research",
+    "section": "2.5 7. Data governance & privacy",
+    "text": "2.5 7. Data governance & privacy\n\nApply de-identification at the earliest possible stage.\nStore research data and AI outputs on approved systems.\nRespect licenses and rights (publisher PDFs, test instruments); document TDM legal basis when applicable.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#security-procurement",
+    "href": "policy.html#security-procurement",
+    "title": "2  Department Policy on AI in Research",
+    "section": "2.6 8. Security & procurement",
+    "text": "2.6 8. Security & procurement\n\nPrefer enterprise/private tools approved by [INSTITUTION].\nVendor vetting is required for any tool touching research data.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#peer-review-editorial-ethics",
+    "href": "policy.html#peer-review-editorial-ethics",
+    "title": "2  Department Policy on AI in Research",
+    "section": "2.7 9. Peer review & editorial ethics",
+    "text": "2.7 9. Peer review & editorial ethics\n\nNo public AI tools may access confidential manuscripts or grants.\nIf a venue permits limited AI assistance, it must be private, logged, and disclosed to the venue.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#training-compliance",
+    "href": "policy.html#training-compliance",
+    "title": "2  Department Policy on AI in Research",
+    "section": "2.8 10. Training & compliance",
+    "text": "2.8 10. Training & compliance\n\nAnnual training on AI in research for all researchers and staff.\nAudits may review logs, prompts, risk registers, and artifacts.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#exceptions",
+    "href": "policy.html#exceptions",
+    "title": "2  Department Policy on AI in Research",
+    "section": "2.9 11. Exceptions",
+    "text": "2.9 11. Exceptions\nExceptions require written approval from the Department AI Lead and the PI, with documented mitigations and rationale.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "policy.html#enforcement",
+    "href": "policy.html#enforcement",
+    "title": "2  Department Policy on AI in Research",
+    "section": "2.10 12. Enforcement",
+    "text": "2.10 12. Enforcement\nViolations may result in corrective actions under [INSTITUTION] policies and sponsor requirements.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
+    ]
+  },
+  {
+    "objectID": "sop.html",
+    "href": "sop.html",
+    "title": "3  Standard Operating Procedures (SOPs)",
+    "section": "",
+    "text": "This SOP maps the research lifecycle to concrete steps, artifacts, and gates.\n\n3.0.1 Gate 0 — Project registration (before any AI use)\n\nFile an AI Use Case entry: purpose, data types, tools, access, risks, roles.\nCreate initial Risk Register and Reproducibility Bundle skeleton (repo with env.lock, prompts/, logs/).\n\n\n\n3.0.2 Stage 1 — Ideas & literature\n\nUse AI to brainstorm/search; verify against sources.\nArtifact: AI Use Log entries; Source List.\n\n\n\n3.0.3 Stage 2 — Grant/protocol drafting\n\nOnly nonconfidential text may be processed; use enterprise tools.\nArtifact: Disclosure note (if AI used for editing), Access attestations.\n\n\n\n3.0.4 Stage 3 — IRB/ethics & data rights\n\nUpdate protocol to reflect AI processing; include consent language.\nArtifact: IRB-approved language, License/TDM memo.\n\n\n\n3.0.5 Stage 4 — Data collection & curation\n\nDe-identify data; produce Datasheet for Datasets.\nArtifact: Datasheet v1; Data License file; PII risk assessment.\n\n\n\n3.0.6 Stage 5 — Analysis & modeling\n\nUse AI for code suggestions/tests; lock seeds and environments.\nArtifact: Model Card; Evaluation report (accuracy, subgroup fairness, robustness); Change log.\n\n\n\n3.0.7 Stage 6 — Results verification & reporting\n\nIndependent checks; bias & robustness analyses.\nArtifact: QA checklist; Signed verification by QA Lead.\n\n\n\n3.0.8 Stage 7 — Writing & authorship\n\nHuman-led drafting; disclose AI assistance and verification steps.\nArtifact: AI Use Statement in manuscript; prompt archive for major uses.\n\n\n\n3.0.9 Stage 8 — Peer review & editorial work\n\nNo public AI use on confidential content.\nArtifact: Reviewer attestation (if applicable).\n\n\n\n3.0.10 Stage 9 — Publication, sharing & archiving\n\nDeposit code/data (as permitted) with licenses and metadata.\nArtifact: Repository DOI, README, Data/Model Cards, AI Use Log export.\n\n\n\n3.0.11 Stage 10 — Deployment & translation\n\nDefine intended use/out-of-scope; user disclosures; monitoring plan.\nArtifact: Deployment risk assessment, User docs, Incident log.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Standard Operating Procedures (SOPs)</span>"
+    ]
+  },
+  {
+    "objectID": "checklists.html",
+    "href": "checklists.html",
+    "title": "4  Checklists & Allowed Uses",
+    "section": "",
+    "text": "4.1 One-page PI checklist (printable)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Checklists & Allowed Uses</span>"
+    ]
+  },
+  {
+    "objectID": "checklists.html#one-page-pi-checklist-printable",
+    "href": "checklists.html#one-page-pi-checklist-printable",
+    "title": "4  Checklists & Allowed Uses",
+    "section": "",
+    "text": "AI Use Case registered; roles named.\nTools are enterprise-approved.\nIRB reflects AI processing; de-identification complete.\nDatasheet(s) and Model Card(s) started.\nRisk Register created; mitigations assigned.\nPrompts & outputs logged; seeds/environments locked.\nDisclosure text prepared.\nBias/robustness tests completed.\nRepository prepared for sharing (licenses, README, DOIs).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Checklists & Allowed Uses</span>"
+    ]
+  },
+  {
+    "objectID": "checklists.html#green-yellow-red",
+    "href": "checklists.html#green-yellow-red",
+    "title": "4  Checklists & Allowed Uses",
+    "section": "4.2 Green / Yellow / Red",
+    "text": "4.2 Green / Yellow / Red\nGreen (allowed with logging): brainstorming; literature scaffolding; copy-editing nonconfidential text; code linting on toy/synthetic data; alt-text; captions.\nYellow (approval & controls): summarizing public PDFs; de-identified data labeling; translation of non-sensitive materials; enterprise transcription.\nRed (prohibited): confidential manuscript/grant text; identifiable human data to public tools; licensed instruments without permission; automated peer review; AI-fabricated data presented as real; undisclosed AI-generated images.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Checklists & Allowed Uses</span>"
+    ]
+  },
+  {
+    "objectID": "checklists.html#reviewereditor-checklist",
+    "href": "checklists.html#reviewereditor-checklist",
+    "title": "4  Checklists & Allowed Uses",
+    "section": "4.3 Reviewer/editor checklist",
+    "text": "4.3 Reviewer/editor checklist\n\nI did not use public AI on confidential content.\nAny permitted assistance occurred on private, logged systems.\nI will not retain manuscript text in external tools.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Checklists & Allowed Uses</span>"
+    ]
+  },
+  {
+    "objectID": "checklists.html#qa-checklist-analysis-modeling",
+    "href": "checklists.html#qa-checklist-analysis-modeling",
+    "title": "4  Checklists & Allowed Uses",
+    "section": "4.4 QA checklist (analysis & modeling)",
+    "text": "4.4 QA checklist (analysis & modeling)\n\nEvaluation includes subgroup performance.\nRobustness/shift tests completed.\nFailure modes documented; limitations section updated.\nModel Card complete; intended use/out-of-scope defined.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Checklists & Allowed Uses</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html",
+    "href": "templates.html",
+    "title": "5  Templates",
+    "section": "",
+    "text": "5.0.1 Manuscript AI-use disclosure (short)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html#datasheet-for-datasets-template",
+    "href": "templates.html#datasheet-for-datasets-template",
+    "title": "5  Templates",
+    "section": "5.1 Datasheet for Datasets — template",
+    "text": "5.1 Datasheet for Datasets — template\nDataset name\nVersion: v0.1 Owners: [Name, email] Provenance: [Source(s), collection dates] Licenses/rights: [Link/terms] Population/coverage: [Who/what/where/when] Consent & lawful basis: [IRB status, consent language, TDM basis] Sensitive attributes: [List or N/A] Known skews/biases: [Describe] Preprocessing & de-ID: [Methods, date, validator] Quality checks: [Missingness, noise, audits] Permitted uses: [Allowed] Prohibited uses: [Forbidden] Retention/deletion: [Schedule]",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html#model-card-template",
+    "href": "templates.html#model-card-template",
+    "title": "5  Templates",
+    "section": "5.2 Model Card — template",
+    "text": "5.2 Model Card — template\nModel name\nVersion: v0.1 Owner: [Name, email] Intended use: [Scope, users, decisions supported] Out-of-scope: [Misuse, non-goals] Training data: [Sources, timeframe, datasheet refs] Evaluation data: [Datasets, metrics] Performance: [Overall + subgroup] Robustness/shift tests: [Methods, results] Safety mitigations: [Filters, constraints] Limitations: [Caveats] Update policy: [Schedule, triggers] Contact: [CONTACT_EMAIL]",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html#ai-use-log-csv-header",
+    "href": "templates.html#ai-use-log-csv-header",
+    "title": "5  Templates",
+    "section": "5.3 AI Use Log — CSV header",
+    "text": "5.3 AI Use Log — CSV header\nproject_id,date,stage,tool,tool_version,prompt_file,input_type,contains_confidential(boolean),output_kept(desc),human_verification(desc),reviewed_by\nRisk Register — CSV header\nproject_id,risk_category,description,likelihood,impact,mitigation,owner,status,next_review\nPrompt archive guidance\n\nSave prompts in prompts/YYYY-MM-DD_context.txt.\n\nFor long sessions, export transcripts or maintain a summarized prompt file per analysis step.\n\n\n\n:::{#quarto-navigation-envelope .hidden}\n[AI in Research: Policy, SOPs, and Templates]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl\"}\n[AI in Research: Policy, SOPs, and Templates]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uYXZiYXItdGl0bGU=\"}\n[&lt;span class='chapter-number'&gt;6&lt;/span&gt;  &lt;span class='chapter-title'&gt;Appendices & External References&lt;/span&gt;]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1uZXh0\"}\n[&lt;span class='chapter-number'&gt;4&lt;/span&gt;  &lt;span class='chapter-title'&gt;Checklists & Allowed Uses&lt;/span&gt;]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1wcmV2\"}\n[&lt;span class='chapter-number'&gt;1&lt;/span&gt;  &lt;span class='chapter-title'&gt;Overview & Quick Start&lt;/span&gt;]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi9pbmRleC5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz4xPC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPk92ZXJ2aWV3LSYtUXVpY2stU3RhcnQ8L3NwYW4+\"}\n[&lt;span class='chapter-number'&gt;2&lt;/span&gt;  &lt;span class='chapter-title'&gt;Department Policy on AI in Research&lt;/span&gt;]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi9wb2xpY3kuaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+Mjwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5EZXBhcnRtZW50LVBvbGljeS1vbi1BSS1pbi1SZXNlYXJjaDwvc3Bhbj4=\"}\n[&lt;span class='chapter-number'&gt;3&lt;/span&gt;  &lt;span class='chapter-title'&gt;Standard Operating Procedures (SOPs)&lt;/span&gt;]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi9zb3AuaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+Mzwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5TdGFuZGFyZC1PcGVyYXRpbmctUHJvY2VkdXJlcy0oU09Qcyk8L3NwYW4+\"}\n[&lt;span class='chapter-number'&gt;4&lt;/span&gt;  &lt;span class='chapter-title'&gt;Checklists & Allowed Uses&lt;/span&gt;]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi9jaGVja2xpc3RzLmh0bWw8c3Bhbi1jbGFzcz0nY2hhcHRlci1udW1iZXInPjQ8L3NwYW4+LS08c3Bhbi1jbGFzcz0nY2hhcHRlci10aXRsZSc+Q2hlY2tsaXN0cy0mLUFsbG93ZWQtVXNlczwvc3Bhbj4=\"}\n[&lt;span class='chapter-number'&gt;5&lt;/span&gt;  &lt;span class='chapter-title'&gt;Templates&lt;/span&gt;]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi90ZW1wbGF0ZXMuaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+NTwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5UZW1wbGF0ZXM8L3NwYW4+\"}\n[&lt;span class='chapter-number'&gt;6&lt;/span&gt;  &lt;span class='chapter-title'&gt;Appendices & External References&lt;/span&gt;]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWludC1zaWRlYmFyOi9hcHBlbmRpY2VzLmh0bWw8c3Bhbi1jbGFzcz0nY2hhcHRlci1udW1iZXInPjY8L3NwYW4+LS08c3Bhbi1jbGFzcz0nY2hhcHRlci10aXRsZSc+QXBwZW5kaWNlcy0mLUV4dGVybmFsLVJlZmVyZW5jZXM8L3NwYW4+\"}\n[&lt;span class='chapter-number'&gt;5&lt;/span&gt;  &lt;span class='chapter-title'&gt;Templates&lt;/span&gt;]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLWJyZWFkY3J1bWJzLTxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+NTwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5UZW1wbGF0ZXM8L3NwYW4+\"}\n:::\n\n\n\n:::{#quarto-meta-markdown .hidden}\n[[5]{.chapter-number}  [Templates]{.chapter-title} – AI in Research: Policy, SOPs, and Templates]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLW1ldGF0aXRsZQ==\"}\n[[5]{.chapter-number}  [Templates]{.chapter-title} – AI in Research: Policy, SOPs, and Templates]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=\"}\n[[5]{.chapter-number}  [Templates]{.chapter-title} – AI in Research: Policy, SOPs, and Templates]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLW9nY2FyZHRpdGxl\"}\n[AI in Research: Policy, SOPs, and Templates]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLW1ldGFzaXRlbmFtZQ==\"}\n[]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw==\"}\n[]{.hidden .quarto-markdown-envelope-contents render-id=\"cXVhcnRvLW9nY2FyZGRkZXNj\"}\n:::\n\n\n\n\n&lt;!-- --&gt;\n\n::: {.quarto-embedded-source-code}\n```````````````````{.markdown shortcodes=\"false\"}\n---\ntitle: \"Templates\"\n---\n\n\n### Manuscript AI-use disclosure (short)\n&gt; We used *[Tool, version]* for *[copy-editing/summarization/code suggestions]* in *[sections]*. Outputs were reviewed and edited by the authors; all accuracy and originality remain the authors’ responsibility. No confidential or identifiable data were provided to AI systems.\n\n\n### Grant/IRB language (AI processing of data)\n&gt; Study data may be processed with machine-learning tools for transcription/annotation/analysis on secure, [INSTITUTION]-approved systems. No public AI services will receive identifiable data. Data will be de-identified prior to any automated processing.\n\n\n### Peer-review attestation (reviewers/editors)\n&gt; I did not use public AI systems to read, summarize, or draft any part of this review, nor did I disclose manuscript contents to any third-party tool.\n\n\n---\n\n\n## Datasheet for Datasets — template\n\nDataset name\n\nVersion: v0.1\nOwners: [Name, email]\nProvenance: [Source(s), collection dates]\nLicenses/rights: [Link/terms]\nPopulation/coverage: [Who/what/where/when] Consent & lawful basis: [IRB status, consent language, TDM basis] Sensitive attributes: [List or N/A] Known skews/biases: [Describe] Preprocessing & de-ID: [Methods, date, validator] Quality checks: [Missingness, noise, audits] Permitted uses: [Allowed] Prohibited uses: [Forbidden] Retention/deletion: [Schedule]\n\n\n\n## Model Card — template\nModel name\n\nVersion: v0.1\nOwner: [Name, email]\nIntended use: [Scope, users, decisions supported]\nOut-of-scope: [Misuse, non-goals] Training data: [Sources, timeframe, datasheet refs] Evaluation data: [Datasets, metrics]\nPerformance: [Overall + subgroup] Robustness/shift tests: [Methods, results] Safety mitigations: [Filters, constraints] Limitations: [Caveats] Update policy: [Schedule, triggers] Contact: [CONTACT_EMAIL]\n\n\n\n## AI Use Log — CSV header\n```csv\nproject_id,date,stage,tool,tool_version,prompt_file,input_type,contains_confidential(boolean),output_kept(desc),human_verification(desc),reviewed_by\nRisk Register — CSV header\nproject_id,risk_category,description,likelihood,impact,mitigation,owner,status,next_review\nPrompt archive guidance\n\nSave prompts in prompts/YYYY-MM-DD_context.txt.\n\nFor long sessions, export transcripts or maintain a summarized prompt file per analysis step.\n:::",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "appendices.html",
+    "href": "appendices.html",
+    "title": "6  Appendices & External References",
+    "section": "",
+    "text": "6.0.1 Appendix A — External guidance to align with (curate per your use)\n\nNational/International: NIST AI RMF; ICMJE authorship & AI guidelines; discipline-specific reporting (e.g., CONSORT-AI/SPIRIT-AI/TRIPOD-AI in biomed); EU AI Act research exemption vs. deployment obligations; OECD/UNESCO principles.\nU.S. Federal: Sponsor and agency rules on AI use for peer review and confidentiality (e.g., NIH); agency public-access plans (article + data).\nState & Institutional: State IT AI acceptable-use/procurement; [INSTITUTION] vendor vetting; campus data classification & storage.\n\n\nAction: Replace this list with citations/links applicable to [STATE] and your typical funders (e.g., NIH/IES/NSF). Add any journal-specific policies you frequently encounter.\n\n\n\n6.0.2 Appendix B — Mapping table\n\n\n\nExternal rule/guidance\nWhat it says\nOur policy hook\n\n\n\n\n[Source]\n[Summary]\n[Policy section & artifact]\n\n\n\n\n\n6.0.3 Appendix C — Glossary\nPlain-language definitions for AI, GenAI, confidential materials, de-identification, TDM, bias/fairness, robustness, model card, datasheet, etc.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Appendices & External References</span>"
+    ]
+  }
+]
