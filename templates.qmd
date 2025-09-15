@@ -8,7 +8,7 @@ title: "Templates"
 
 
 ### Grant/IRB language (AI processing of data)
-> Study data may be processed with machine-learning tools for transcription/annotation/analysis on secure, Auburn University-approved systems. No public AI services will receive identifiable data. Data will be de-identified prior to any automated processing.
+> Study data may be processed with machine-learning tools for transcription/annotation/analysis on secure, [INSTITUTION]-approved systems. No public AI services will receive identifiable data. Data will be de-identified prior to any automated processing.
 
 
 ### Peer-review attestation (reviewers/editors)

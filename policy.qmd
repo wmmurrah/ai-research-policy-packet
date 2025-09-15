@@ -52,7 +52,7 @@ All material AI assistance must be disclosed in manuscripts/grants (see template
 
 
 ## 8. Security & procurement
-- Prefer enterprise/private tools approved by Auburn University.
+- Prefer enterprise/private tools approved by [INSTITUTION].
 - Vendor vetting is required for any tool touching research data.
 
 
@@ -71,4 +71,4 @@ Exceptions require written approval from the Department AI Lead and the PI, with
 
 
 ## 12. Enforcement
-Violations may result in corrective actions under Auburn University policies and sponsor requirements.
+Violations may result in corrective actions under [INSTITUTION] policies and sponsor requirements.

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "AI in Research: Policy, SOPs, and Templates",
     "section": "",
-    "text": "0.1 Who this is for\nResearchers, PIs, data stewards, model owners, and editors/reviewers affiliated with Auburn University — EFLT.",
+    "text": "0.1 Who this is for\nResearchers, PIs, data stewards, model owners, and editors/reviewers affiliated with [INSTITUTION] — [DEPARTMENT].",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview & Quick Start</span>"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#quick-start-ten-rules",
     "title": "AI in Research: Policy, SOPs, and Templates",
     "section": "0.2 Quick-start: Ten Rules",
-    "text": "0.2 Quick-start: Ten Rules\n\nDon’t upload confidential material (unpublished manuscripts, grants, identifiable data, licensed instruments) to public AI tools.\nHumans are responsible. AI is never an author; disclose substantive AI assistance.\nLog your AI use (tool+version, prompts, inputs by type, outputs kept, human checks).\nPrefer enterprise or local tools approved by Auburn University.\nVerify claims and cite original sources, not the model.\nNo AI for peer review of confidential manuscripts or proposals.\nProtect participants: IRB approval for AI processing; de-identify first.\nDocument datasets and models (Datasheets & Model Cards).\nTrack risks (privacy, bias, IP, security, misuse) and mitigations.\nBe reproducible: save prompts, seeds, code, data versions, and environments.",
+    "text": "0.2 Quick-start: Ten Rules\n\nDon’t upload confidential material (unpublished manuscripts, grants, identifiable data, licensed instruments) to public AI tools.\nHumans are responsible. AI is never an author; disclose substantive AI assistance.\nLog your AI use (tool+version, prompts, inputs by type, outputs kept, human checks).\nPrefer enterprise or local tools approved by [INSTITUTION].\nVerify claims and cite original sources, not the model.\nNo AI for peer review of confidential manuscripts or proposals.\nProtect participants: IRB approval for AI processing; de-identify first.\nDocument datasets and models (Datasheets & Model Cards).\nTrack risks (privacy, bias, IP, security, misuse) and mitigations.\nBe reproducible: save prompts, seeds, code, data versions, and environments.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview & Quick Start</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "index.html#how-the-packet-is-organized",
     "title": "AI in Research: Policy, SOPs, and Templates",
     "section": "0.4 How the packet is organized",
-    "text": "0.4 How the packet is organized\n\npolicy.qmd – Department policy (scope, definitions, roles, permitted/prohibited uses, disclosure, procurement, training, enforcement).\nsop.qmd – Stage-by-stage procedures aligned to the research lifecycle.\nchecklists.qmd – One-page checklists and green/yellow/red lists.\ntemplates.qmd – Disclosure language, IRB snippets, Reviewer attestation, Datasheet & Model Card templates, CSV headers for logs.\nappendices.qmd – External references and mappings to national and international guidance.\n\n\n\n\n\n\n\nTip\n\n\n\nSmart defaults for Auburn University. Enforce a strict ban on public AI use for confidential content, require ICMJE-style disclosure of AI assistance, and adopt NIST AI RMF as the governance spine. Adapt state/funder specifics in Appendix A.",
+    "text": "0.4 How the packet is organized\n\npolicy.qmd – Department policy (scope, definitions, roles, permitted/prohibited uses, disclosure, procurement, training, enforcement).\nsop.qmd – Stage-by-stage procedures aligned to the research lifecycle.\nchecklists.qmd – One-page checklists and green/yellow/red lists.\ntemplates.qmd – Disclosure language, IRB snippets, Reviewer attestation, Datasheet & Model Card templates, CSV headers for logs.\nappendices.qmd – External references and mappings to national and international guidance.\n\n\n\n\n\n\n\nTip\n\n\n\nSmart defaults for [INSTITUTION]. Enforce a strict ban on public AI use for confidential content, require ICMJE-style disclosure of AI assistance, and adopt NIST AI RMF as the governance spine. Adapt state/funder specifics in Appendix A.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview & Quick Start</span>"
     ]
@@ -104,7 +104,7 @@
     "href": "policy.html#security-procurement",
     "title": "2  Department Policy on AI in Research",
     "section": "2.6 8. Security & procurement",
-    "text": "2.6 8. Security & procurement\n\nPrefer enterprise/private tools approved by Auburn University.\nVendor vetting is required for any tool touching research data.",
+    "text": "2.6 8. Security & procurement\n\nPrefer enterprise/private tools approved by [INSTITUTION].\nVendor vetting is required for any tool touching research data.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
     ]
@@ -144,7 +144,7 @@
     "href": "policy.html#enforcement",
     "title": "2  Department Policy on AI in Research",
     "section": "2.10 12. Enforcement",
-    "text": "2.10 12. Enforcement\nViolations may result in corrective actions under Auburn University policies and sponsor requirements.",
+    "text": "2.10 12. Enforcement\nViolations may result in corrective actions under [INSTITUTION] policies and sponsor requirements.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Department Policy on AI in Research</span>"
     ]
@@ -254,7 +254,7 @@
     "href": "appendices.html",
     "title": "6  Appendices & External References",
     "section": "",
-    "text": "6.0.1 Appendix A — External guidance to align with (curate per your use)\n\nNational/International: NIST AI RMF; ICMJE authorship & AI guidelines; discipline-specific reporting (e.g., CONSORT-AI/SPIRIT-AI/TRIPOD-AI in biomed); EU AI Act research exemption vs. deployment obligations; OECD/UNESCO principles.\nU.S. Federal: Sponsor and agency rules on AI use for peer review and confidentiality (e.g., NIH); agency public-access plans (article + data).\nState & Institutional: State IT AI acceptable-use/procurement; Auburn University vendor vetting; campus data classification & storage.\n\n\nAction: Replace this list with citations/links applicable to [STATE] and your typical funders (e.g., NIH/IES/NSF). Add any journal-specific policies you frequently encounter.\n\n\n\n6.0.2 Appendix B — Mapping table\n\n\n\nExternal rule/guidance\nWhat it says\nOur policy hook\n\n\n\n\n[Source]\n[Summary]\n[Policy section & artifact]\n\n\n\n\n\n6.0.3 Appendix C — Glossary\nPlain-language definitions for AI, GenAI, confidential materials, de-identification, TDM, bias/fairness, robustness, model card, datasheet, etc.",
+    "text": "6.0.1 Appendix A — External guidance to align with (curate per your use)\n\nNational/International: NIST AI RMF; ICMJE authorship & AI guidelines; discipline-specific reporting (e.g., CONSORT-AI/SPIRIT-AI/TRIPOD-AI in biomed); EU AI Act research exemption vs. deployment obligations; OECD/UNESCO principles.\nU.S. Federal: Sponsor and agency rules on AI use for peer review and confidentiality (e.g., NIH); agency public-access plans (article + data).\nState & Institutional: State IT AI acceptable-use/procurement; [INSTITUTION] vendor vetting; campus data classification & storage.\n\n\nAction: Replace this list with citations/links applicable to [STATE] and your typical funders (e.g., NIH/IES/NSF). Add any journal-specific policies you frequently encounter.\n\n\n\n6.0.2 Appendix B — Mapping table\n\n\n\nExternal rule/guidance\nWhat it says\nOur policy hook\n\n\n\n\n[Source]\n[Summary]\n[Policy section & artifact]\n\n\n\n\n\n6.0.3 Appendix C — Glossary\nPlain-language definitions for AI, GenAI, confidential materials, de-identification, TDM, bias/fairness, robustness, model card, datasheet, etc.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Appendices & External References</span>"
     ]

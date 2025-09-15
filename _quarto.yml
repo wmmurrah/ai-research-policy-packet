@@ -6,7 +6,7 @@ project:
 book:
   title: "AI in Research: Policy, SOPs, and Templates"
   subtitle: "Guidance for Responsible, Reproducible AI Across the Research Lifecycle"
-  author: "Auburn University — EFLT"
+  author: "[INSTITUTION] — [DEPARTMENT]"
   date: last-modified
   chapters:
     - index.qmd
@@ -18,7 +18,7 @@ book:
 
 format:
   html:
-    theme: 
+    theme:
       cosmo
     toc: true
     toc-depth: 3
@@ -27,6 +27,7 @@ format:
  #    axe:
 #      output: document
     highlight-style: a11y
+    include-after-body: draft-watermark.html
   pdf:
     documentclass: scrreprt
     toc: true

@@ -5,7 +5,7 @@ title: "Appendices & External References"
 ### Appendix A — External guidance to align with (curate per your use)
 - **National/International:** NIST AI RMF; ICMJE authorship & AI guidelines; discipline-specific reporting (e.g., CONSORT-AI/SPIRIT-AI/TRIPOD-AI in biomed); EU AI Act research exemption vs. deployment obligations; OECD/UNESCO principles.
 - **U.S. Federal:** Sponsor and agency rules on AI use for peer review and confidentiality (e.g., NIH); agency public-access plans (article + data).
-- **State & Institutional:** State IT AI acceptable-use/procurement; Auburn University vendor vetting; campus data classification & storage.
+- **State & Institutional:** State IT AI acceptable-use/procurement; [INSTITUTION] vendor vetting; campus data classification & storage.
 
 
 > **Action:** Replace this list with citations/links applicable to **[STATE]** and your typical funders (e.g., NIH/IES/NSF). Add any journal-specific policies you frequently encounter.

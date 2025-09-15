@@ -10,14 +10,14 @@ title: "Overview & Quick Start"
 
 
 ## Who this is for
-Researchers, PIs, data stewards, model owners, and editors/reviewers affiliated with **Auburn University — EFLT**.
+Researchers, PIs, data stewards, model owners, and editors/reviewers affiliated with **[INSTITUTION] — [DEPARTMENT]**.
 
 
 ## Quick-start: Ten Rules
 1. **Don’t upload confidential material** (unpublished manuscripts, grants, identifiable data, licensed instruments) to public AI tools.
 2. **Humans are responsible.** AI is never an author; disclose substantive AI assistance.
 3. **Log your AI use** (tool+version, prompts, inputs by type, outputs kept, human checks).
-4. **Prefer enterprise or local tools** approved by Auburn University.
+4. **Prefer enterprise or local tools** approved by [INSTITUTION].
 5. **Verify claims** and cite original sources, not the model.
 6. **No AI for peer review** of confidential manuscripts or proposals.
 7. **Protect participants**: IRB approval for AI processing; de-identify first.
@@ -42,7 +42,7 @@ Researchers, PIs, data stewards, model owners, and editors/reviewers affiliated 
 
 
 ::: {.callout-tip}
-**Smart defaults for Auburn University.** Enforce a strict ban on public AI use for confidential content, require ICMJE-style disclosure of AI assistance, and adopt NIST AI RMF as the governance spine. Adapt state/funder specifics in *Appendix A*.
+**Smart defaults for [INSTITUTION].** Enforce a strict ban on public AI use for confidential content, require ICMJE-style disclosure of AI assistance, and adopt NIST AI RMF as the governance spine. Adapt state/funder specifics in *Appendix A*.
 
 :::
 
