@@ -4,7 +4,37 @@
     "href": "index.html",
     "title": "AI in Research: Policy, SOPs, and Templates",
     "section": "",
-    "text": "Note\n\n\n\nPurpose. This packet provides a departmental policy, standard operating procedures (SOPs), stage-by-stage checklists, and ready-to-paste templates for disclosing and documenting AI use in research.\n\n\n\n0.0.1 Who this is for\nResearchers, PIs, data stewards, model owners, and editors/reviewers affiliated with Auburn University — EFLT.\n\n\n0.0.2 Quick-start: Ten Rules\n\nDon’t upload confidential material (unpublished manuscripts, grants, identifiable data, licensed instruments) to public AI tools.\nHumans are responsible. AI is never an author; disclose substantive AI assistance.\nLog your AI use (tool+version, prompts, inputs by type, outputs kept, human checks).\nPrefer enterprise or local tools approved by Auburn University.\nVerify claims and cite original sources, not the model.\nNo AI for peer review of confidential manuscripts or proposals.\nProtect participants: IRB approval for AI processing; de-identify first.\nDocument datasets and models (Datasheets & Model Cards).\nTrack risks (privacy, bias, IP, security, misuse) and mitigations.\nBe reproducible: save prompts, seeds, code, data versions, and environments.\n\n\n\n0.0.3 Roles & accountability\n\nPI: ultimate sign-off on AI use, risk register, and disclosures.\nData Steward: storage, access control, de-identification.\nModel Owner: model card, evaluations, updates.\nProject QA Lead: verifies logs, prompts, reproducibility bundle.\n\n\n\n0.0.4 How the packet is organized\n\npolicy.qmd – Department policy (scope, definitions, roles, permitted/prohibited uses, disclosure, procurement, training, enforcement).\nsop.qmd – Stage-by-stage procedures aligned to the research lifecycle.\nchecklists.qmd – One-page checklists and green/yellow/red lists.\ntemplates.qmd – Disclosure language, IRB snippets, Reviewer attestation, Datasheet & Model Card templates, CSV headers for logs.\nappendices.qmd – External references and mappings to national and international guidance.\n\n\n\n\n\n\n\nTip\n\n\n\nSmart defaults for Auburn University. Enforce a strict ban on public AI use for confidential content, require ICMJE-style disclosure of AI assistance, and adopt NIST AI RMF as the governance spine. Adapt state/funder specifics in Appendix A.",
+    "text": "0.1 Who this is for\nResearchers, PIs, data stewards, model owners, and editors/reviewers affiliated with Auburn University — EFLT.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview & Quick Start</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#quick-start-ten-rules",
+    "href": "index.html#quick-start-ten-rules",
+    "title": "AI in Research: Policy, SOPs, and Templates",
+    "section": "0.2 Quick-start: Ten Rules",
+    "text": "0.2 Quick-start: Ten Rules\n\nDon’t upload confidential material (unpublished manuscripts, grants, identifiable data, licensed instruments) to public AI tools.\nHumans are responsible. AI is never an author; disclose substantive AI assistance.\nLog your AI use (tool+version, prompts, inputs by type, outputs kept, human checks).\nPrefer enterprise or local tools approved by Auburn University.\nVerify claims and cite original sources, not the model.\nNo AI for peer review of confidential manuscripts or proposals.\nProtect participants: IRB approval for AI processing; de-identify first.\nDocument datasets and models (Datasheets & Model Cards).\nTrack risks (privacy, bias, IP, security, misuse) and mitigations.\nBe reproducible: save prompts, seeds, code, data versions, and environments.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview & Quick Start</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#roles-accountability",
+    "href": "index.html#roles-accountability",
+    "title": "AI in Research: Policy, SOPs, and Templates",
+    "section": "0.3 Roles & accountability",
+    "text": "0.3 Roles & accountability\n\nPI: ultimate sign-off on AI use, risk register, and disclosures.\nData Steward: storage, access control, de-identification.\nModel Owner: model card, evaluations, updates.\nProject QA Lead: verifies logs, prompts, reproducibility bundle.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview & Quick Start</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#how-the-packet-is-organized",
+    "href": "index.html#how-the-packet-is-organized",
+    "title": "AI in Research: Policy, SOPs, and Templates",
+    "section": "0.4 How the packet is organized",
+    "text": "0.4 How the packet is organized\n\npolicy.qmd – Department policy (scope, definitions, roles, permitted/prohibited uses, disclosure, procurement, training, enforcement).\nsop.qmd – Stage-by-stage procedures aligned to the research lifecycle.\nchecklists.qmd – One-page checklists and green/yellow/red lists.\ntemplates.qmd – Disclosure language, IRB snippets, Reviewer attestation, Datasheet & Model Card templates, CSV headers for logs.\nappendices.qmd – External references and mappings to national and international guidance.\n\n\n\n\n\n\n\nTip\n\n\n\nSmart defaults for Auburn University. Enforce a strict ban on public AI use for confidential content, require ICMJE-style disclosure of AI assistance, and adopt NIST AI RMF as the governance spine. Adapt state/funder specifics in Appendix A.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview & Quick Start</span>"
     ]

@@ -9,11 +9,11 @@ title: "Overview & Quick Start"
 :::
 
 
-### Who this is for
+## Who this is for
 Researchers, PIs, data stewards, model owners, and editors/reviewers affiliated with **Auburn University — EFLT**.
 
 
-### Quick-start: Ten Rules
+## Quick-start: Ten Rules
 1. **Don’t upload confidential material** (unpublished manuscripts, grants, identifiable data, licensed instruments) to public AI tools.
 2. **Humans are responsible.** AI is never an author; disclose substantive AI assistance.
 3. **Log your AI use** (tool+version, prompts, inputs by type, outputs kept, human checks).
@@ -26,14 +26,14 @@ Researchers, PIs, data stewards, model owners, and editors/reviewers affiliated 
 10. **Be reproducible**: save prompts, seeds, code, data versions, and environments.
 
 
-### Roles & accountability
+## Roles & accountability
 - **PI:** ultimate sign-off on AI use, risk register, and disclosures.
 - **Data Steward:** storage, access control, de-identification.
 - **Model Owner:** model card, evaluations, updates.
 - **Project QA Lead:** verifies logs, prompts, reproducibility bundle.
 
 
-### How the packet is organized
+## How the packet is organized
 - **policy.qmd** – Department policy (scope, definitions, roles, permitted/prohibited uses, disclosure, procurement, training, enforcement).
 - **sop.qmd** – Stage-by-stage procedures aligned to the research lifecycle.
 - **checklists.qmd** – One-page checklists and green/yellow/red lists.
