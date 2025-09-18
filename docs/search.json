@@ -34,7 +34,7 @@
     "href": "index.html#how-the-packet-is-organized",
     "title": "AI in Research: Policy, SOPs, and Templates",
     "section": "0.4 How the packet is organized",
-    "text": "0.4 How the packet is organized\n\npolicy.qmd – Department policy (scope, definitions, roles, permitted/prohibited uses, disclosure, procurement, training, enforcement).\nsop.qmd – Stage-by-stage procedures aligned to the research lifecycle.\nchecklists.qmd – One-page checklists and green/yellow/red lists.\ntemplates.qmd – Disclosure language, IRB snippets, Reviewer attestation, Datasheet & Model Card templates, CSV headers for logs.\n\nappendices.qmd – External references and mappings to national and international guidance.\n\n\n\n\n\n\n\nTip\n\n\n\nSmart defaults for [INSTITUTION]. Enforce a strict ban on public AI use for confidential content, require ICMJE-style disclosure of AI assistance, and adopt NIST AI RMF as the governance spine. Adapt state/funder specifics in Appendix A.",
+    "text": "0.4 How the packet is organized\n\npolicy.qmd – Department policy (scope, definitions, roles, permitted/prohibited uses, disclosure, procurement, training, enforcement).\nsop.qmd – Stage-by-stage procedures aligned to the research lifecycle.\nchecklists.qmd – One-page checklists and green/yellow/red lists.\ntemplates.qmd – Disclosure language, IRB snippets, Reviewer attestation, Datasheet & Model Card templates, CSV headers for logs.\ngeneral-doc-analysis - General analysis of existing documents, sops, and policy on AI use in research.\nappendices.qmd – External references and mappings to national and international guidance.\n\n\n\n\n\n\n\nTip\n\n\n\nSmart defaults for [INSTITUTION]. Enforce a strict ban on public AI use for confidential content, require ICMJE-style disclosure of AI assistance, and adopt NIST AI RMF as the governance spine. Adapt state/funder specifics in Appendix A.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview & Quick Start</span>"
     ]
@@ -255,16 +255,6 @@
     "title": "6  AI Research Policy Analysis - General",
     "section": "",
     "text": "6.1 Executive summary (what’s solid today)",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>AI Research Policy Analysis - General</span>"
-    ]
-  },
-  {
-    "objectID": "general-doc-analysis.html#initial-prompt",
-    "href": "general-doc-analysis.html#initial-prompt",
-    "title": "6  AI Research Policy Analysis - General",
-    "section": "",
-    "text": "I would like to conduct a document analysis of existing policies,\npractices, standards and any other guidance for how to use and document \nuse of AI in research. This should be anything that applies to any \nprortion or stage of the research workflow. It should include federal, \nstate, and international sources. The goal is to use this analysis and the \nresulting report to develop standards of practice if they do not exists. \nAct as an expert in AI and research design, analysis, and publishing, with \nadditional expertise in federal funding and federal and state policy. This \nshould be as comprehensive an analysis as possible given the state of \nexisting documentation. I would like to move from general to specific as I \nlearn more about what exists and what is needed. Ask any clarifying \nquestions that would improve the process.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>AI Research Policy Analysis - General</span>"
     ]
