@@ -38,6 +38,7 @@ Researchers, PIs, data stewards, model owners, and editors/reviewers affiliated 
 - **sop.qmd** – Stage-by-stage procedures aligned to the research lifecycle.
 - **checklists.qmd** – One-page checklists and green/yellow/red lists.
 - **templates.qmd** – Disclosure language, IRB snippets, Reviewer attestation, Datasheet & Model Card templates, CSV headers for logs.
+- **general-doc-analysis** - General analysis of existing documents, sops, and policy on AI use in research.
 - **appendices.qmd** – External references and mappings to national and international guidance.
 
 
