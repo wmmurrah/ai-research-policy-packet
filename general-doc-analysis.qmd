@@ -1,0 +1,131 @@
+---
+title: "AI Research Policy Analysis - General"
+format: html
+ 
+---
+## Executive summary (what’s solid today)
+
+* **Peer review:** U.S. federal funders explicitly **ban** using generative AI to read, analyze, or draft peer-review materials; uploading any application/manuscript content to public AI tools violates confidentiality. Enforced at NIH and mirrored widely. ([Grants.gov][1])
+* **U.S. federal governance:** OMB’s AI governance memos now run through **M-25-21** (Apr 3, 2025), which **replaced M-24-10**, while **M-25-22** covers AI acquisition. These establish agency-level risk management, inventories, impact controls, and transparency—useful templates for university standards. ([The White House][2])
+* **Reporting & authorship:** ICMJE (updated 2024–2025) says **AI tools are not authors**; substantive use must be **acknowledged** and **verifiable**, and journals must instruct reviewers about AI limits. Major publishers (Nature/Science) require disclosure and restrict AI-generated figures/text. ([icmje.org][3])
+* **Risk management standards:** **NIST AI RMF 1.0** (with a 2024 **Generative AI profile**) is the most widely referenced, practical framework for documenting AI risks across the lifecycle; use it as your spine for internal SOPs, audits, and model/data cards. ([NIST Publications][4])
+* **International law & soft law:** The **EU AI Act** (in force; phased timelines through 2025+) exempts AI **developed and put into service solely for scientific research**, but applies once systems are **placed on the market/put into service**; prohibits certain practices and adds obligations for high-risk uses. UNESCO & OECD principles give high-level guardrails to align local policy with international norms. ([EUR-Lex][5])
+* **States (examples):** States are moving on AI governance that can touch public universities: **California EO N-12-23** (GenAI program + procurement guidance), **New York ITS AI acceptable-use policy**, and broader state AI governance (e.g., inventories, restrictions). **Colorado’s 2024 AI Act** (developers/deployers) is broader market regulation that may affect research **deployment** to residents. ([Governor of California][6])
+
+---
+
+## Workflow matrix: what to **do & document**, and where rules bite
+
+| Research stage                        | Minimum standard (actionable)                                                                                                                                                                      | What to record/disclose                                                                                                                |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 0) Governance & planning              | Adopt **NIST AI RMF 1.0** + GenAI profile as your internal playbook; define roles (PI, data steward, model owner), risk thresholds, and approval gates.                                            | RMF alignment table; risk register; approvals; model/data “owner” of record. ([NIST Publications][4])                                  |
+| 1) Idea & literature review           | If AI summarizers are used, **retain citations & source passages**; keep a tool-use log.                                                                                                           | Tool + version; prompts; output checkpoints; sources verified by human.                                                                |
+| 2) Grant/protocol drafting            | **No AI** may see nonpublic content if sponsor prohibits; keep AI out of confidential sponsor material. Check funder policy.                                                                       | Statement of AI assistance limited to generic writing aid (if allowed); confirmation none used on confidential text. ([Grants.gov][1]) |
+| 3) IRB/ethics & data rights           | For human data, reflect **GDPR/HIPAA/Common Rule** duties if applicable. If scraping, document legal basis, TDM exceptions, consent language re: AI processing.                                    | Consent language; lawful basis; data minimization; de-ID plan; DUA/DUC terms permitting AI processing. ([EUR-Lex][7])                  |
+| 4) Data collection/curation           | Create **Datasheets for Datasets** (who/what/when/how), provenance, and permissible uses; include bias/coverage.                                                                                   | Datasheet; license terms; PII handling; retention/deletion; data quality checks.                                                       |
+| 5) Model development                  | Maintain **Model Cards**; record training data, preprocessing, eval sets, metrics, failure modes, and guardrails; run bias/robustness tests; align with RMF “Map/Measure/Manage.”                  | Model Card; risk tests; change log; dependency hashes; reproducible seeds. ([NIST Publications][4])                                    |
+| 6) Validation & prereg/reporting      | For clinical/biomed: follow **CONSORT-AI / SPIRIT-AI / TRIPOD-AI / related** reporting. Outside biomed, use analogous checklists (Model/Data Cards).                                               | Registration; analysis plan; reporting checklist attached to manuscript.                                                               |
+| 7) Writing & authorship               | **Humans write & take responsibility.** If AI assisted drafting, **disclose** which sections and how outputs were verified; **no AI as author.**                                                   | “AI use” paragraph in Acknowledgements/Methods; prompts retained; plagiarism checks performed. ([icmje.org][3])                        |
+| 8) Peer review (as author & reviewer) | **Do not** upload manuscripts or proposals to AI tools. Reviewers must avoid AI assistance unless journal gives a strict, private, compliant workflow.                                             | Reviewer attestation; journal-specific instructions kept on file. ([Grants.gov][1])                                                    |
+| 9) Publication & sharing              | **Public access** (U.S.): follow agency public-access plans (Nelson memo implementation). Share data/code when allowed; include licenses & metadata.                                               | Repository DOIs; metadata; statements on restrictions/sensitive data. ([The White House][8])                                           |
+| 10) Deployment/translation            | If releasing tools/services to users (esp. EU), check **EU AI Act** scope—research exemption ends when putting into service/on market; follow transparency/high-risk obligations where applicable. | Intended use; user disclosures; conformity route (if applicable); risk mitigations; post-market monitoring plan. ([EUR-Lex][5])        |
+
+**Notes on the evidence base & policies cited above**
+
+* NIH peer-review AI ban (binding): reviewers may **not** use LLMs; uploading any application content violates confidentiality. ([Grants.gov][1])
+* OMB M-25-21 (2025) now governs agency AI use (M-24-10 **rescinded**); M-25-22 covers acquisition—useful templates for internal governance & vendor vetting. ([The White House][2])
+* ICMJE: AI cannot be an author; disclose and take responsibility for any AI assistance; give reviewers AI-use guidance. ([icmje.org][3])
+* Nature/Science: disclosure required; restrictions on AI-generated images and some textual uses. ([Nature][9])
+* NIST AI RMF + GenAI profile = best-practice backbone for risk & documentation across the lifecycle. ([NIST Publications][4])
+* EU AI Act: research exemption (Recital 25) but obligations trigger when systems are **put into service** or **placed on the market**; early prohibitions and penalties phase in during 2025. ([EUR-Lex][5])
+* State examples with impact on public universities: CA EO N-12-23 (GenAI program/procurement); NY ITS AI acceptable-use policy. ([Governor of California][6])
+
+---
+
+### “Starter” Standard Operating Procedure (SOP) & documentation kit
+
+Use this immediately; we can refine per your department/university.
+
+**A. Governance & registration**
+
+* Register each AI use case (project level) with: purpose, data, model(s), access controls, and a named **model owner**. Map to NIST RMF functions (Govern/Map/Measure/Manage). ([NIST Publications][4])
+* Maintain an **AI risk register** (privacy, bias, robustness, misuse, IP/copyright), with mitigations and sign-offs at each milestone. ([NIST Publications][4])
+
+**B. Dataset documentation**
+
+* Create a **Datasheet for Datasets** for every dataset (source, consent, licenses, sensitive attributes, known skews, allowed AI uses).
+* Record TDM (text-and-data-mining) legal basis and opt-outs where applicable (esp. EU TDM rules). ([EUR-Lex][5])
+
+**C. Model documentation**
+
+* Publish **Model Cards** (intended use, data, metrics, failure modes, safety mitigations, update policy).
+* Keep full **reproducibility bundle**: code, environment, seeds, data access notes.
+
+**D. Authorship & manuscript**
+
+* Include an **AI use statement** (template):
+
+> “The authors used \<tool & version> to \<copy-edit/translate/summarize> sections \<X>. Outputs were reviewed and edited by the authors, and all accuracy, originality, and citation responsibilities remain with the authors. No AI systems had access to nonpublic or confidential data/manuscripts.”
+
+Align with journal/funder requirements (ICMJE, Nature/Science). ([icmje.org][3])
+
+**E. Peer review**
+
+* Strictly **no AI** on confidential materials (grant proposals, manuscripts) unless the journal/funder provides a **private, approved** tool and explicit permission. ([Grants.gov][1])
+
+**F. Public access & sharing**
+
+* Comply with your funder’s **public-access plan** (Nelson memo implementation): deposit publications **and** data (or give justified exceptions). Provide machine-readable metadata & PIDs. ([The White House][8])
+
+**G. Deployment**
+
+* If you release a model/app beyond research, assess EU AI Act/other jurisdictional obligations (transparency, risk management, high-risk conformity). Document “intended use,” user notices, and monitoring. ([EUR-Lex][5])
+
+---
+
+### Gaps & where to set your own standard
+
+* **Social/education research outside biomed** lacks CONSORT-AI-style, field-specific reporting. Use **Model/Data Cards + NIST RMF** to fill the gap until discipline-specific extensions emerge. ([NIST Publications][4])
+* **State policy patchwork:** campus-level acceptable-use and procurement rules may be stricter than funders’ policies—align early with state IT policy (e.g., NY ITS) and your General Counsel. ([IT Services][10])
+* **Reviewer guidance** varies by publisher; default to the NIH/ICMJE floor: no public AI tools on confidential content; if any assistance is allowed by a journal, document it and keep it local/private. ([Grants.gov][1])
+
+---
+
+### Suggested deliverables (I can draft next)
+
+1. **Departmental AI in Research Policy** (10 pages): scope, definitions, governance roles, prohibited uses, disclosures, audit.
+2. **One-page PI checklist** (by stage).
+3. **Templates**: AI use statement; Dataset Datasheet; Model Card; Risk register; Reviewer attestation.
+
+---
+
+### Smart defaults for Auburn/EFLT (today)
+
+* Adopt **NIST AI RMF 1.0** + GenAI profile as the lab/department standard. ([NIST Publications][4])
+* Enforce **NIH-style peer-review ban** on AI for all internal and external reviews. ([Grants.gov][1])
+* Require **ICMJE-style disclosure** for any AI assistance in manuscripts/grants. ([icmje.org][3])
+* For projects touching the EU (data or deployment), track **EU AI Act** timelines and exemptions. ([EUR-Lex][5])
+* Align with state-level acceptable-use (e.g., NY ITS example) for university-owned devices/accounts; restrict public AI tools for sensitive data. ([IT Services][10])
+
+---
+
+### Clarifying questions (answer any/all and I’ll tailor the next iteration)
+
+1. **Scope of data & populations:** Human subjects only, or also web-scraped/administrative data? Any EU/UK participants (GDPR) or clinical collaborations (HIPAA/FDA)?
+2. **Where do you plan to *deploy* models** (beyond publications)—internal dashboards only, or public-facing tools/apps (triggers EU AI Act-like duties)? ([EUR-Lex][5])
+3. **Publisher mix:** Which journals/presses do you submit to most (ICMJE-aligned vs. social-science outlets), so I can map exact editorial policies? ([icmje.org][3])
+4. **Campus governance:** Do you want the policy written for **your department**, **College of Education**, or as a **university-wide** recommendation that references state IT policy (e.g., CA/NY-style AU)? ([IT Services][10])
+5. **Tool posture:** Any enterprise AI tools (private instances) available on campus (e.g., MS Copilot, ChatGPT Teams/Enterprise, Claude for Teams) that we should whitelist for limited uses?
+
+
+[1]: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-23-149.html?utm_source=chatgpt.com "NOT-OD-23-149: The Use of Generative Artificial Intelligence ..."
+[2]: https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf?utm_source=chatgpt.com "M-25-21 Accelerating Federal Use of AI through Innovation ..."
+[3]: https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html?utm_source=chatgpt.com "Defining the Role of Authors and Contributors"
+[4]: https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf?utm_source=chatgpt.com "Artificial Intelligence Risk Management Framework (AI RMF 1.0)"
+[5]: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202401689 "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act)Text with EEA relevance."
+[6]: https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf?utm_source=chatgpt.com "Executive Order N-12-23"
+[7]: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32016R0679&utm_source=chatgpt.com "REGULATION (EU) 2016/ 679 OF THE EUROPEAN ..."
+[8]: https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf?utm_source=chatgpt.com "[PDF] 08-2022-OSTP-Public-Access-Memo.pdf"
+[9]: https://www.nature.com/nature-portfolio/editorial-policies/ai?utm_source=chatgpt.com "Artificial Intelligence (AI) - editorial policies"
+[10]: https://its.ny.gov/acceptable-use-artificial-intelligence-technologies?utm_source=chatgpt.com "Acceptable Use of Artificial Intelligence Technologies"
+
