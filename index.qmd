@@ -2,12 +2,10 @@
 title: "Overview & Quick Start"
 ---
 
-
 :::{.callout-note}
 **Purpose.** This packet provides a departmental policy, standard operating procedures (SOPs), stage-by-stage checklists, and ready-to-paste templates for disclosing and documenting AI use in research.
 
 :::
-
 
 ## Who this is for
 Researchers, PIs, data stewards, model owners, and editors/reviewers affiliated with **[INSTITUTION] — [DEPARTMENT]**.
